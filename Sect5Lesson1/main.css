@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#product-overview {
+    background: url("freedom.jpg");
+    width: 100%;
+    height: 528px;
+    padding: 10px;
+}
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+
+.plan {
+    background: rgb(187, 253, 187);
+    display: inline-block;
+    margin: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 30%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.plan__items {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__title {
+    color: darkred;
+}
+
+.plan__items>li {
+    margin: 8px 0;
+}
+
+
+
+.plan__highlighted {
+    background: rgb(32, 199, 32);
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.484);
+}
+
+.plan__annotation {
+    color: rgb(2, 66, 2);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.484);
+    background-color: white;
+}
+
+.button {
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid darkgreen;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #0e4f1f;
+
+}
+
+.button:focus {
+    outline: none;
+}
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-header>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
+
+.stick {
+    background: #ff1b68;
+    box-sizing: content-box;
+    padding: 16px;
+}
+
+.stick>.section-title {
+    color: white;
+    margin: 20px;
+}
+
+.stick__items {
+    text-align: center;
+    vertical-align: middle;
+    list-style: none;
+}
+
+.stick__items li {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.circle {
+    background: lightsalmon;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 2px solid darkgray;
+    text-align: center;
+    margin: auto;
+}
+
+.stick_description {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: top;
+    font-size: 20px;
+}
+
+.main-footer {
+    background: black;
+    color: white;
+    padding: 32px;
+    margin: 48px;
+}
+
+.main-footer__links {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+
+.main-footer__links li {
+    display: inline-block;
+}
+
+.main-footer__links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__links li a:focus,
+.main-footer__links li a:active {
+
+    cursor: pointer;
+}
