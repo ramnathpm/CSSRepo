@@ -28,12 +28,12 @@ main {
   position: fixed;
   top: 0;
   left: 0;
-  background: #2ddf5c;
+  background: palevioletred;
   padding: 0.5rem 1rem;
   z-index: 1;
 }
 
-.main-header > div {
+.main-header>div {
   display: inline-block;
   vertical-align: middle;
 }
@@ -61,7 +61,7 @@ main {
 }
 
 .main-header__brand {
-  color: #0e4f1f;
+  color: palevioletred;
   text-decoration: none;
   font-weight: bold;
   height: 2.5rem;
@@ -216,10 +216,10 @@ main {
   border: #a1a1a1;
   background: #ccc;
   color: #a1a1a1;
-} 
+}
 
 .open {
-    display: block !important;
+  display: block !important;
 }
 
 @media (min-width: 40rem) {
